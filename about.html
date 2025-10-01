@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About — Paws & Pixels</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-body sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center fw-bold" href="/home.html">
+                <img id="brandLogo" src="assets/images/logo_pap.png" data-logo-light="assets/images/logo_pap.png"
+                    data-logo-dark="assets/images/logo_dark.png" alt="Paws & Pixels logo" height="50" width="50"
+                    class="d-inline-block align-text-top">
+                <span>Paws & Pixels</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
+                aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="/home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contact.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="btn btn-primary ms-lg-2" href="/signin/">Sign in</a>
+                    </li>
+                    <li><button id="themeToggle" class="btn btn-outline-secondary ms-2" aria-label="Toggle theme">
+                            <i id="themeIcon" class="bi bi-sun"></i>
+                        </button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="container py-4">
+        <div class="row align-items-center g-4">
+            <div class="col-lg-7">
+                <span class="badge rounded-pill text-bg-primary float-end">V1.0</span>
+                <h1 class="display-5 fw-bold">About Paws & Pixels</h1>
+                <p class="lead mb-3">
+                    We help pet lovers turn everyday photos into ready-to-post stories. Connect Google Photos or
+                    Pinterest,
+                    and get AI-crafted captions with mood tags—plus <strong>smart auto-crop renditions</strong> (1:1,
+                    4:5,
+                    16:9, 9:16) that keep your pet perfectly centered.
+                </p>
+                <a href="/signin/" class="btn btn-primary">Launch Studio</a>
+            </div>
+            <div class="col-lg-5 text-center">
+                <img src="assets/images/main_about.png" class="img-fluid rounded shadow"
+                    alt="Dog and cat photo collage illustration">
+            </div>
+        </div>
+    </header>
+
+
+    <section class="container py-4">
+        <h2 class="h3 mb-3">Our mission</h2>
+        <p>
+            Make it simple (and fun) for people to celebrate their pets online. Paws & Pixels uses computer vision to
+            understand what’s in your photos and a language model to write short, on-tone captions with mood tags you
+            can
+            filter and export.
+        </p>
+    </section>
+
+    <!-- How it works -->
+    <section id="how-it-works" class="container py-4">
+        <h2 class="h3 mb-4">How it works</h2>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <div class="display-6 mb-2"><i class="bi bi-link-45deg"></i></div>
+                        <h3 class="h5">Connect your photos</h3>
+                        <p class="mb-0">Choose Google Photos or upload a few images to start.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <div class="display-6 mb-2"><i class="bi bi-search"></i></div>
+                        <h3 class="h5">We analyze each image</h3>
+                        <p class="mb-0">Vision detects what’s in the photo; Gemini drafts a caption and mood tags.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <div class="display-6 mb-2"><i class="bi bi-crop"></i></div>
+                        <h3 class="h5">Smart auto-crop</h3>
+                        <p class="mb-0">Automatic 1:1, 4:5, 16:9, and 9:16 crops that keep your pet in focus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <div class="display-6 mb-2"><i class="bi bi-stars"></i></div>
+                        <h3 class="h5">Copy, filter & export</h3>
+                        <p class="mb-0">Save favorites, filter by mood, and export captions for posting.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why it matters -->
+    <section class="container py-4">
+        <div class="row align-items-center g-4">
+            <div class="col-md-6">
+                <h2 class="h3 mb-3">Why it matters</h2>
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-2">• <strong>Faster posting:</strong> No more staring at a blank caption box.</li>
+                    <li class="mb-2">• <strong>Consistent tone:</strong> Keep your page vibe steady and fun.</li>
+                    <li class="mb-2">• <strong>Organization:</strong> Mood tags and labels make search simple.</li>
+                    <li class="mb-2">• <strong>Export-ready:</strong> Use captions anywhere (schedulers, Sheets,
+                        Notion).
+                    </li>
+                    <li class="mb-2">• <strong>Perfect framing:</strong> One-click crops for feed, reels, stories, and
+                        banners.</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <img src="assets/images/about_dashboard.jpeg" class="img-fluid rounded shadow w-100"
+                    style="max-height: 320px; object-fit: cover;" alt="Dashboard with pet photos and captions">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Privacy -->
+    <section class="container py-4">
+        <h2 class="h3 mb-3">Privacy & data</h2>
+        <ul class="list-unstyled mb-0">
+            <li class="mb-2">• You pick the photos to analyze; nothing else is scanned.</li>
+            <li class="mb-2">• Results are stored to your account; you can delete them anytime.</li>
+            <li class="mb-2">• We log processing for transparency; your photos aren’t resold.</li>
+        </ul>
+    </section>
+
+    <!-- Tech we use -->
+    <section class="container py-4">
+        <h2 class="h3 mb-3">Powered by</h2>
+        <div class="d-flex flex-wrap align-items-center gap-3">
+            <span class="badge text-bg-light">Google Photos</span>
+            <span class="badge text-bg-light">Google Vision API</span>
+            <span class="badge text-bg-light">Google Gemini</span>
+            <span class="badge text-bg-light">Firestore</span>
+            <span class="badge text-bg-light">Node & Express JS</span>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section class="container py-4">
+        <h2 class="h3 mb-4">Team</h2>
+        <ul class="list-unstyled mb-0">
+            <li class="mb-2"><strong>Vengala Rao</strong> — <span class="text-muted">Backend</span></li>
+            <li class="mb-2"><strong>Mahitha</strong> — <span class="text-muted">Frontend</span></li>
+            <li class="mb-2"><strong>Sahil</strong> — <span class="text-muted">Cloud</span></li>
+            <li class="mb-2"><strong>Tejas</strong> — <span class="text-muted">Cloud</span></li>
+        </ul>
+    </section>
+
+
+    <!-- FAQ -->
+    <section class="container py-4">
+        <h2 class="h3 mb-4">FAQ</h2>
+        <div class="accordion" id="faq">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="q1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#a1">
+                        What does Paws & Pixels actually do?
+                    </button>
+                </h2>
+                <div id="a1" class="accordion-collapse collapse show" data-bs-parent="#faq">
+                    <div class="accordion-body">
+                        It analyzes your pet photos with Google Vision to detect what’s in each image, then uses Gemini
+                        to generate
+                        a short
+                        caption and mood tags. It also creates smart auto-crops (1:1, 4:5, 16:9, 9:16) so your pet stays
+                        centered
+                        across
+                        platforms.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="q2">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#a2">
+                        Will you scan my entire library?
+                    </button>
+                </h2>
+                <div id="a2" class="accordion-collapse collapse" data-bs-parent="#faq">
+                    <div class="accordion-body">
+                        No. You choose an album or a limited recent batch (e.g., 50 photos). You can always load more.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="q3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#a3">
+                        How does Smart Auto-Crop work?
+                    </button>
+                </h2>
+                <div id="a3" class="accordion-collapse collapse" data-bs-parent="#faq">
+                    <div class="accordion-body">
+                        We use Vision’s object and crop hints to find the subject (your pet) and compute safe framing
+                        for common aspect
+                        ratios—no stretching or guesswork.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="q4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#a4">
+                        What gets stored?
+                    </button>
+                </h2>
+                <div id="a4" class="accordion-collapse collapse" data-bs-parent="#faq">
+                    <div class="accordion-body">
+                        Per photo: the source URL, labels, caption, mood tags, and any saved renditions. You can delete
+                        results at any time.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA to studio -->
+    <section class="container py-4">
+        <div class="p-4 p-md-5 rounded bg-body-tertiary text-center">
+            <h2 class="h3 mb-2">Ready to try Paws & Pixels?</h2>
+            <p class="mb-3">Connect an album and get captions in seconds.</p>
+            <a href="/signin/" class="btn btn-primary btn-lg">Launch Studio</a>
+        </div>
+    </section>
+
+    <footer class="container py-4">
+        <div class="d-flex flex-wrap justify-content-between small text-muted">
+            <span>© Paws & Pixels</span>
+            <span>
+                <a href="/home.html" class="link-secondary me-3">Home</a>
+                <a href="/about.html" class="link-secondary me-3">About</a>
+                <a href="/contact.html" class="link-secondary">Contact</a></span>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

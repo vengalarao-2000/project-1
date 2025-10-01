@@ -1,0 +1,68 @@
+   /* Sign in form */
+   .my-custom-card {
+       transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+   }
+
+   .my-custom-card:hover {
+       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+       /* Add a shadow */
+       transform: translateY(-5px);
+       /* Slightly lift the card */
+       cursor: pointer;
+       /* Indicate it's interactive */
+   }
+
+
+   /* Contact us styles */
+   /* Float-based layout for Contact page */
+   .contact-wrap {
+       position: relative;
+   }
+
+   /* Right column (form) floats right */
+   .contact-form {
+       float: right;
+       width: 380px;
+       margin-left: 2rem;
+       /* space between form and left content */
+       border-radius: 1rem;
+       display: flex;
+       flex-direction: column;
+       gap: 1rem;
+   }
+
+   .contact-form .card-body {
+       padding-bottom: 1rem;
+   }
+
+   .contact-form .card-footer {
+       padding-top: 1rem;
+       border-top: 1px solid var(--bs-border-color);
+   }
+
+   /* Left column content reserves space for the float */
+   .contact-content {
+       margin-right: 420px;
+       /* form width and a bit of space */
+   }
+
+   /* Clearfix to contain the float */
+   .contact-wrap::after {
+       content: "";
+       display: table;
+       clear: both;
+   }
+
+   /* Responsive: stack on small screens */
+   @media (max-width: 992px) {
+       .contact-form {
+           float: none;
+           width: 100%;
+           margin: 0 0 1.5rem 0;
+           /* place form above content on mobile */
+       }
+
+       .contact-content {
+           margin-right: 0;
+       }
+   }
